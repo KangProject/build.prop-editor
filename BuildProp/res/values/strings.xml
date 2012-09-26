@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuildProp Editor</string>
+
+    <string name="ValueEdit_TextView_Description">Description</string>
+    <string name="ValueEdit_Button_CancelButtonCaption">Cancel</string>
+    <string name="ValueEdit_TextView_Values">Values</string>
+    <string name="ValueEdit_TextView_CurrentValue">Current value: </string>
+    <string name="add_value_screen_key">Key</string>
+
+    <string name="ValueEdit_Button_SaveButtonCaption">Save value to file</string>
+    <string name="pairediting_custom_value">Enter your custom value</string>
+    <string name="Toast_BP_Saved">Build.prop has been saved!</string>
+
+	<string name="Current_Value">Current value:</string>
+
+	<!-- Restore -->
+		<string name="restore_title">Revert to vanilla?</string>
+	    <string name="restore_rusure_question">Any changes will be lost!</string>
+	    <string name="revert_backup">Restore backup</string>
+
+    <!-- Firstlaunch -->
+	    <string name="first_launch_welcome_title">Welcome!</string>
+	    <string name="first_launch_create_backup">Get su prompt</string>
+
+    <!-- Buttons -->
+	    <string name="button_cancel">Cancel</string>
+	    <string name="mkay">Okay</string>
+    
+    <!-- Dialogs -->
+
+		<!-- About -->
+			<string name="Author_Info">Developed by android_owl</string>
+			<string name="layout_about_description">This tool allows you to modify your build.prop file easily on your device. It also features a variety of descriptions for the properties: \n\n - recommended values\n - a proper description\n - a recommended keyboard layout.\n\nIf you want to contribute (add a description, create a translation or even donate a bit), mail me or write me on Twitter.\n\n<b>I don\'t take responsibility for any damage.</b></string>
+			<string name="About_TextView_ReleaseNotes"><b>Version 1.0b</b>\n+ Initial release\n<b>Version 1.1b</b>\n+ UI redesign\n+ Increased performance\n+ Increased compatibility with other roms\n<b>Version 1.2</b>\n+ Added viewmode (for unrooted phones)\n+ Added HC and ICS compatibility\n+ Added an introduction\n+ Increased usability\n+ Fixed some typos\n<b>Version 1.3</b>\n+ Fixed su-problem on several roms\n+ Changed app icon\n+ Removed debug logs</string>
+			<string name="About_changelog">Changelog</string>
+		<!-- About helpers -->
+			<string name="About_Helper">These are the people who helped me making this great project:\n\nmomo.martinovic@gmail.com\n - He designed the great app icon, you have to check him out!</string>		
+	
+		
+    	<!-- Remount -->
+	    	<string name="remount_title">Warning: /system read-only</string>
+	    	<string name="remount_message">/system is mounted read-only. It has to be remounted as a read-write filesystem.</string>
+	    	<string name="remount_chkbox">Don\'t ask again, just remount</string>
+	    	<string name="remount_button_remount">Remount /system</string>
+    	
+	    <!--  Reboot -->
+			<string name="reboot_title">Reboot</string>
+	    	<string name="reboot_message">Reboot your Android?</string>
+	    	<string name="reboot_button_remount">Reboot</string>
+	    	
+	    <!--  Add -->
+	    	<string name="add_key_hint">Type in keyname or choose one</string>
+	    	<string name="add_value_hint">Type in value or choose one</string>
+
+	<!-- Preferences -->
+	<string name="add_value">Value</string>
+	
+	<!-- Operations -->
+	<string name="Create">Create</string>
+	<string name="View">View</string>
+	<string name="Update">Update</string>	
+	<string name="Delete">Delete</string>	
+	
+	<!-- ContentDescs -->
+	<string name="store">Store</string>	
+	<string name="twitter">twitter</string>	
+	<string name="paypal">Paypal</string>	
+	<string name="xda">XDA</string>	
+	<string name="ValueEdit_Label_ChooseAKeyForDescription">Choose a key to see the description of it</string>	
+	<string name="first_launch_usage">What is this tool used for?</string>	
+	<string name="first_launch_hint">This tool allows you to modify your build.prop file easily on your device. It also features a variety of descriptions for the properties, containing: \n\n - recommended values\n - a proper description\n - a recommended keyboard layout.</string>
+	<string name="first_launch_usage_requirements">Sounds great!</string>	
+	<string name="first_launch_usage_requirements_answer">There\'s also one prerequisite: You\'ve to grant su permissions for this app to work. If you\'ve got no su on your phone, that\'s fine! The app will switch into view mode.\n\nAfter you\'ve granted su, I create a backup of your vanilla build.prop file. This will avoid damaging your android.</string>	
+	<string name="first_launch_welcome_message">This screen indicates the first launch. I\'ll give you a short introduction of what you can do with this awesome piece of goodness right infront of your nose. So let\'s start!</string>	
+	<string name="first_launch_misc">Questions or something else?</string>	
+	<string name="first_launch_misc_answer">"If you've got a question, a recommendation or something else you can contact me by gently pressing one of those icons. You're also invited to join the thread on (prefered) XDA!</string>	
+	<string name="credits">Credits</string>
+
+</resources>

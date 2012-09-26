@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addProperty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_background"
+    android:gravity="center" >
+
+    <de.bwulfert.widgets.Label
+        android:id="@+id/tvKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="left"
+        android:text="@string/add_value_screen_key"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:id="@+id/key_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvKey"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinnerKeys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/tv_propertyKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_key_hint" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llfooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:baselineAligned="true" >
+
+        <de.bwulfert.widgets.CustomButton
+            android:id="@+id/bt_saveToPropFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="writeChangesToProp"
+            android:text="@string/ValueEdit_Button_SaveButtonCaption"
+            android:textColor="@drawable/colors" />
+
+        <de.bwulfert.widgets.CustomButton
+            android:id="@+id/bt_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="backToTop"
+            android:text="@string/ValueEdit_Button_CancelButtonCaption"
+            android:textColor="@drawable/colors" />
+    </LinearLayout>
+
+    <de.bwulfert.widgets.Label
+        android:id="@+id/tvValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/key_container"
+        android:gravity="left"
+        android:text="@string/add_value"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:id="@+id/value_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvValue"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinnerValues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/tv_PropertyValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_value_hint" />
+    </LinearLayout>
+
+    <de.bwulfert.widgets.Label
+        android:id="@+id/tvDescriptionLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/value_container"
+        android:gravity="left"
+        android:text="@string/ValueEdit_TextView_Description"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llfooter"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvDescriptionLabel"
+        android:layout_margin="5dp"
+        android:text="@string/ValueEdit_Label_ChooseAKeyForDescription"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvKey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tvDescription"
+        android:gravity="center"
+        android:text="@string/Create"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/main_text" />
+
+</RelativeLayout>

@@ -1,0 +1,279 @@
+<DescriptionBundle>
+	<PropertyDescription>
+		<KeyName>debug.sf.hw</KeyName>
+		<Description>Render UI with GPU (relieves pressure on CPU)</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>1</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>dalvik.vm.heapsize</KeyName>
+		<Description>Set size of Dalvik VM heap (how much RAM each instance of the VM is allowed); depending on how much RAM that is available to a device, this can be increased.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>32</Default>
+			<Value>8</Value>
+			<Value>16</Value>
+			<Value>24</Value>
+			<Value>32</Value>
+			<Value>48</Value>
+			<Value>50</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>persist.adb.notify</KeyName>
+		<Description>Stop debugging icon from appearing in status bar.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>0</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>windowsmgr.max_events_per_sec</KeyName>
+		<Description>Increase to improve scrolling response.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>120</Default>
+			<Value>100</Value>
+			<Value>110</Value>
+			<Value>120</Value>
+			<Value>130</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>persist.sys.use_dithering</KeyName>
+		<Description>Do not use surface dithering (surface dithering improves image quality).</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>0</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	
+	<PropertyDescription>
+		<KeyName>debug.sf.nobootanimation</KeyName>
+		<Description>Disable boot animation.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>1</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	
+	<PropertyDescription>
+		<KeyName>ro.HOME_APP_ADJ</KeyName>
+		<Description>Force home launcher into memory.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>1</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.sf.lcd_density</KeyName>
+		<Description>Set screen density; change according to your device or what suits you, a lower value will display more but may be too small to use on a device with a smaller screen. Also note that changing the pixel density will make some applications in the new market ‘incompatible with your device’.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>240</Default>
+			<Value>140</Value>
+			<Value>160</Value>
+			<Value>180</Value>
+			<Value>200</Value>
+			<Value>220</Value>
+			<Value>240</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>mot.proximity.delay</KeyName>
+		<Description>Lower to fix black screen after calls issue.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>150</Default>
+			<Value>100</Value>
+			<Value>110</Value>
+			<Value>120</Value>
+			<Value>130</Value>
+			<Value>140</Value>
+			<Value>150</Value>
+			<Value>160</Value>
+			<Value>170</Value>
+			<Value>180</Value>
+			<Value>190</Value>
+			<Value>200</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.telephony.call_ring.delay</KeyName>
+		<Description>Decrease dialing out delay.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>0</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>wifi.supplicant_scan_interval</KeyName>
+		<Description>This attribute describes the wifi scan-interval (To scan more often lower the value).</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>120</Default>
+			<Value>50</Value>
+			<Value>60</Value>
+			<Value>70</Value>
+			<Value>80</Value>
+			<Value>90</Value>
+			<Value>100</Value>
+			<Value>110</Value>
+			<Value>120</Value>
+			<Value>130</Value>
+			<Value>140</Value>
+			<Value>150</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>pm.sleep_mode</KeyName>
+		<Description>Increase battery saving potential.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>1</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.com.android.dataroaming</KeyName>
+		<Description>Enables data-roaming by default in the build.</Description>
+		<KeyboardLayout>CharacterInput</KeyboardLayout>
+		<Values>
+			<Default>true</Default>
+			<Value>false</Value>
+			<Value>true</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.com.android.dateformat</KeyName>
+		<Description>Changes default date format to day-month-year.</Description>
+		<KeyboardLayout>CharacterInput</KeyboardLayout>
+		<Values>
+			<Default>dd-MM-yyyy</Default>
+			<Value>yyyy-MM-dd</Value>
+			<Value>yyyy-dd-MM</Value>
+			<Value>dd-yyyy-mm</Value>
+			<Value>dd-MM-yyyy</Value>
+			<Value>MM-yyyy-dd</Value>
+			<Value>MM-dd-yyyy</Value>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.config.alarm_alert</KeyName>
+		<Description>Describes the path for the alert sound. Must correlate to ogg files available in /system/media/audio/.</Description>
+		<KeyboardLayout>FileDialog</KeyboardLayout>
+		<Values>
+			<Default></Default>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.config.ringtone</KeyName>
+		<Description>Describes the path for the ringtone sound. Must correlate to ogg files available in /system/media/audio/.</Description>
+		<KeyboardLayout>FileDialog</KeyboardLayout>
+		<Values>
+			<Default></Default>
+		</Values>
+	</PropertyDescription>
+	<PropertyDescription>
+		<KeyName>ro.config.notification_sound</KeyName>
+		<Description>Describes the path for the notification sound. Must correlate to ogg files available in /system/media/audio/.</Description>
+		<Values>
+			<Default></Default>
+		</Values>
+	</PropertyDescription>
+	
+	<PropertyDescription>
+		<KeyName>video.accelerate.hw</KeyName>
+		<Description>Whether to use hardware acceleration to render videos, doesn’t work on all devices.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>1</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+
+	<PropertyDescription>
+		<KeyName>ro.media.enc.jpeg.quality</KeyName>
+		<Description>Stands for the quality of the JPEGs.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>100</Default>
+			<Value>10</Value>
+			<Value>20</Value>
+			<Value>30</Value>
+			<Value>40</Value>
+			<Value>50</Value>
+			<Value>60</Value>
+			<Value>70</Value>
+			<Value>80</Value>
+			<Value>90</Value>
+			<Value>100</Value>			
+		</Values>
+	</PropertyDescription>
+	
+	<PropertyDescription>
+		<KeyName>ro.media.dec.jpeg.memcap</KeyName>
+		<Description>Raise the photo quality.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>100</Default>
+			<Value>10</Value>
+			<Value>20</Value>
+			<Value>30</Value>
+			<Value>40</Value>
+			<Value>50</Value>
+			<Value>60</Value>
+			<Value>70</Value>
+			<Value>80</Value>
+			<Value>90</Value>
+			<Value>100</Value>			
+		</Values>
+	</PropertyDescription>
+
+	<PropertyDescription>
+		<KeyName>ro.media.enc.hprof.vid.bps</KeyName>
+		<Description>Raise video recording quality.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>100</Default>
+			<Value>10</Value>
+			<Value>20</Value>
+			<Value>30</Value>
+			<Value>40</Value>
+			<Value>50</Value>
+			<Value>60</Value>
+			<Value>70</Value>
+			<Value>80</Value>
+			<Value>90</Value>
+			<Value>100</Value>			
+		</Values>
+	</PropertyDescription>
+	
+	<PropertyDescription>
+		<KeyName>ro.mot.buttonlight.timeout</KeyName>
+		<Description>Force button lights on when screen is on.</Description>
+		<KeyboardLayout>NumBlock</KeyboardLayout>
+		<Values>
+			<Default>1</Default>
+			<Value>0</Value>
+			<Value>1</Value>
+		</Values>
+	</PropertyDescription>
+	
+</DescriptionBundle>

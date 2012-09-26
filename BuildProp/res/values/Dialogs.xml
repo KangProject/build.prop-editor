@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="firstlaunch">10000</integer>
+    <integer name="remount">10001</integer>
+    <integer name="su_need">10002</integer>
+    
+</resources>

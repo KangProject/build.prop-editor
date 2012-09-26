@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/system" >
+        <item
+            android:id="@+id/menu_add_property"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add property">
+        </item>
+        <item
+            android:id="@+id/menu_restore"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="Restore vanilla build">
+        </item>
+        <item
+            android:id="@+id/menu_reboot"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:title="Reboot">
+        </item>
+    </group>
+    <group android:id="@+id/misc" >
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About">
+        </item>
+<!--         <item -->
+<!--             android:id="@+id/menu_preferences" -->
+<!--             android:icon="@android:drawable/ic_menu_preferences" -->
+<!--             android:title="Preferences"> -->
+<!--         </item> -->
+    </group>
+
+</menu>
