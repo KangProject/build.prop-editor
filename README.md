@@ -1,6 +1,8 @@
 build.prop editor
 =================
 
+This tool is somewhat of outdated, so I nearly guarantee you that it'll break you configuration.
+
 <h1>What is this tool used for?</h1>
 This tool allows you to modify your build.prop file easily on your device. It makes editing easy and you don't have to take care about remounting stuff or read/write permissions. It also features descriptions which contain information about the property. A great tool for both: beginners and advanced users. It can be used to test a variety of properties on your device or even tweak it, but be warned: You've to know what you're doing! If the phone doesn't boot after a reboot, the initial backup of your device can be found at: /data/data/de.bwulfert.buildpropedit/build.prop
 
